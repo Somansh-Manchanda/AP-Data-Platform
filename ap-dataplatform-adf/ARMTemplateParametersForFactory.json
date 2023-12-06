@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ap-dataplatform-adf"
+		},
+		"LS_AzureDatabricks_accessToken": {
+			"value": ""
+		},
+		"storage_event_trigger_properties_pipeline1_parameters_fileName": {
+			"value": "@triggerBody().fileName"
+		},
+		"storage_event_trigger_properties_typeProperties_scope": {
+			"value": "/subscriptions/7916bfe4-a3eb-4105-a739-99a159d7ccfa/resourceGroups/AP_Data_platform_rg/providers/Microsoft.Storage/storageAccounts/apdatastorageacc"
+		}
+	}
+}
