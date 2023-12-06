@@ -1,0 +1,9 @@
+{
+	"name": "ap-dataplatform-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e157b48c-66aa-4a5c-9482-3735e4d79771",
+		"tenantId": "ae793036-0f50-4956-8878-2a2b9d75a98b"
+	}
+}
